@@ -1,0 +1,10 @@
+*{margin:0;padding:0}
+@font-face{font-family:Trottoir;font-style:normal;src:url("http://static.tumblr.com/3jc4ci5/nuvlsrlsw/trottoir.otf") format(opentype)}
+body{font-family:"Cabin","Helvetica Neue","Helvetica",sans-serif}
+h1{text-align:center;font-family:Trottoir;font-size:64px;line-height:1;margin:16px 0}
+#map{height:480px;width:75%;float:right}
+#posts{list-style:none;width:25%;background:#ccc;float:left;border-top:1px solid #ccc;}
+#posts .tags{display:none}
+#posts a{display:block;position:relative;padding:8px 16px;background:#fff;color:#06f;text-decoration:none;border-bottom:1px solid #ccc;}
+#posts a:hover{background:#06f;color:#fff}
+#posts a:active{top:1px}
